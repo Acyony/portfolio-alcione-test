@@ -1,0 +1,295 @@
+body {
+    border-top: 6px solid #A73138;
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet ms", sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    max-width: 1000px;
+    padding: 0 30px 0 30px;
+    margin: 30px auto 30px auto;
+}
+
+.logo-wrapper {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo {
+    height: 65px;
+    padding: 10px;
+}
+
+.menu {
+    margin: 0 0 40px 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline;
+    margin-right: 20px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.menu-item a {
+    color: #4E4E4E;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.menu-item a:hover {
+    color: #9D3F42;
+    text-decoration: underline;
+}
+
+.position-menu {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+section {
+    margin: 30px 0;
+    scroll-margin-top: 140px;
+}
+
+.intro {
+    padding-top: 0;
+    padding-bottom: 30px;
+    color: #363842;
+    text-align: justify;
+}
+
+.section-title-wrapper {
+    margin-top: -45px;
+    margin-bottom: 30px;
+}
+
+.section-title-wrapper h2 {
+    color: #c22c35;
+    background: white;
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
+
+
+.profile {
+    margin-bottom: 40px;
+    height: 125px;
+    display: flex;
+}
+
+.profile-img {
+    margin-right: 20px;
+}
+
+.profile-img img {
+    height: 160px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #A73138;
+}
+
+.profile-about {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-about-name {
+    font-weight: bold;
+    color: #C22C35;
+    margin: 25px 0 5px 0;
+}
+
+ul.about-curriculum {
+    padding: 0;
+}
+
+.about-curriculum li {
+    list-style: none;
+    line-height: 1.8;
+}
+
+.profile-about-role {
+    color: #363842;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-about-descrption {
+    color: #363842;
+    margin: 0 0 10px;
+}
+
+.section-title-wrapper.skills h2 {
+    width: 130px;
+    padding-bottom: 30px;
+}
+
+.skill {
+    letter-spacing: 4px;
+}
+
+.progress-bar {
+    background-color: #eeeeee;
+    border-radius: 3px;
+}
+
+.progress-bar-fill {
+    background-color: #9D3F42;
+    height: 28px;
+    border-radius: 3px;
+}
+
+.progress-bar .skill-html {
+    width: 85%;
+}
+
+.progress-bar .skill-css {
+    width: 70%;
+}
+
+.progress-bar .skill-javascript {
+    width: 65%;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+}
+
+.projects-photo {
+    text-align: center;
+}
+
+.projects-photo img {
+    width: 170px;
+}
+
+.project-name {
+    font-weight: bold;
+    font-size: 24px;
+    color: #C22C35;
+    text-decoration: none;
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;
+}
+
+.project-name:hover {
+    text-decoration: underline;
+}
+
+.project-photo {
+    text-align: center
+}
+
+.project-photo img {
+    width: 300px;
+    border-radius: 3px;
+}
+
+.project-photo.personal-blog-logo img {
+    width: 170px;
+}
+
+.contact {
+    text-align: center;
+    color: #363842;
+    font-weight: 700;
+    margin-top: 40px;
+    padding-bottom: 10px;
+
+}
+
+.formular-contact {
+    display: flex;
+}
+
+.formular-message {
+    width: 50%;
+    margin-top: 15px;
+}
+
+.formular-message-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.formular-message-content-top {
+    text-align: center;
+}
+
+.formular {
+    padding: 10px;
+    width: 50%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border-color: #eda4be;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #80626d;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom: 5px solid #D7573C;
+    outline: none;
+}
+
+::placeholder {
+    color: #D22A74;
+    font-family: "Trebuchet ms", sans-serif;
+}
+
+footer {
+    background-color: #C22C35;
+    padding: 30px 0 10px 0;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+
+.socialmedia-logo {
+    width: 27px;
+    height: 27px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+.button-submit {
+    box-sizing: border-box;
+}
+
+.button-submit:hover {
+    cursor: pointer;
+    border-radius: 3px;
+    animation-name: background-color;
+    color: #C22C35;
+}
